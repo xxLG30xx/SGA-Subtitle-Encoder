@@ -1,0 +1,4 @@
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\bin\x86\Debug\AviFile.dll
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\bin\x86\Debug\AviFile.pdb
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\obj\x86\Debug\AviFile.dll
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\obj\x86\Debug\AviFile.pdb

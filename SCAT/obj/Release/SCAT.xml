@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SCAT
+</name>
+</assembly>
+<members>
+<member name="T:SCAT.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources._1x1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.AppIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.AppIcon2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.AppIcon3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.DPLOGO_SGA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.Next32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.Next48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.Pause32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.Pause48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.Play32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.Prev32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SCAT.My.Resources.Resources.SMPTE_Color_Bars">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:SCAT.Globals.GetBits(System.Int32,System.UInt64,System.Int32)">
+ <summary>
+ Gets the value of a string of bits contained in an unsigned integral value
+ </summary>
+ <param name="value">The value from which to get the bits</param>
+ <param name="index">The zero-based start index of the uppermost bit to get</param>
+ <param name="count">The number of bits to get</param>
+ <returns>The value of the string of bits</returns>
+ <remarks>Return values are shifted all the way to the right.</remarks>
+</member>
+<member name="M:SCAT.Globals.GetBits(System.Int32,System.UInt32,System.Int32)">
+ <summary>
+ Gets the value of a string of bits contained in an unsigned integral value
+ </summary>
+ <param name="value">The value from which to get the bits</param>
+ <param name="index">The zero-based start index of the uppermost bit to get</param>
+ <param name="count">The number of bits to get</param>
+ <returns>The value of the string of bits</returns>
+ <remarks>Return values are shifted all the way to the right.</remarks>
+</member>
+<member name="M:SCAT.Globals.GetBits(System.Int32,System.UInt16,System.Int32)">
+ <summary>
+ Gets the value of a string of bits contained in an unsigned integral value
+ </summary>
+ <param name="value">The value from which to get the bits</param>
+ <param name="index">The zero-based start index of the uppermost bit to get</param>
+ <param name="count">The number of bits to get</param>
+ <returns>The value of the string of bits</returns>
+ <remarks>Return values are shifted all the way to the right.</remarks>
+</member>
+<member name="M:SCAT.Globals.GetBits(System.Int32,System.Byte,System.Int32)">
+ <summary>
+ Gets the value of a string of bits contained in an unsigned integral value
+ </summary>
+ <param name="value">The value from which to get the bits</param>
+ <param name="index">The zero-based start index of the uppermost bit to get</param>
+ <param name="count">The number of bits to get</param>
+ <returns>The value of the string of bits</returns>
+ <remarks>Return values are shifted all the way to the right.</remarks>
+</member>
+<member name="T:SCAT.SGA.ChunkC2.SourceColorInputStyle">
+ <summary>
+ Specifies the style of source color input
+ </summary>
+ <remarks>For use with Mega CD 2-color pattern generator</remarks>
+</member>
+<member name="F:SCAT.SGA.ChunkC2.SourceColorInputStyle.None">
+ <summary>
+ Do not input source color data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:SCAT.SGA.ChunkC2.SourceColorInputStyle.Normal">
+ <summary>
+ Input source color data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:SCAT.SGA.ChunkC2.SourceColorInputStyle.Conditional">
+ <summary>
+ Input source color data only if top bit of associated pattern data is set
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:SCAT.SGA.ChunkC2.SourcePatternInputStyle">
+ <summary>
+ Specifies the style of source pattern input
+ </summary>
+ <remarks>For use with Mega CD 2-color pattern generator</remarks>
+</member>
+<member name="F:SCAT.SGA.ChunkC2.SourcePatternInputStyle.None">
+ <summary>
+ Do not input source pattern data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:SCAT.SGA.ChunkC2.SourcePatternInputStyle.Normal">
+ <summary>
+ Input source pattern data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:SCAT.SGA.ChunkC2.SourcePatternInputStyle.Preserve">
+ <summary>
+ Input source pattern data and preserve the bottom 4 bits of pattern data for use in generating the next pattern
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
