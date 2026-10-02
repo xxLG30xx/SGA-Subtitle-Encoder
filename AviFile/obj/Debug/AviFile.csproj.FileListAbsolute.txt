@@ -1,0 +1,9 @@
+D:\Users\Paul\Documents\Visual Studio 2015\Source\Workspaces\SCAT\SCAT\AviFile\bin\Debug\AviFile.dll
+D:\Users\Paul\Documents\Visual Studio 2015\Source\Workspaces\SCAT\SCAT\AviFile\bin\Debug\AviFile.pdb
+D:\Users\Paul\Documents\Visual Studio 2015\Source\Workspaces\SCAT\SCAT\AviFile\obj\Debug\AviFile.csprojResolveAssemblyReference.cache
+D:\Users\Paul\Documents\Visual Studio 2015\Source\Workspaces\SCAT\SCAT\AviFile\obj\Debug\AviFile.dll
+D:\Users\Paul\Documents\Visual Studio 2015\Source\Workspaces\SCAT\SCAT\AviFile\obj\Debug\AviFile.pdb
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\bin\Debug\AviFile.dll
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\bin\Debug\AviFile.pdb
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\obj\Debug\AviFile.dll
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\obj\Debug\AviFile.pdb

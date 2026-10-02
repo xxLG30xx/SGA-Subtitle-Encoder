@@ -1,0 +1,2 @@
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\bin\Release\AviFile.dll
+D:\Users\Paul\Documents\Visual Studio 2015\Workspaces\SCAT\SCAT\AviFile\obj\Release\AviFile.dll

@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AviFile", "AviFile\AviFile.csproj", "{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SCAT", "SCAT\SCAT.vbproj", "{6015C99E-7AA8-4696-A390-E3910696B39D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Debug|x64.Build.0 = Debug|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Debug|x86.ActiveCfg = Debug|x86
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Debug|x86.Build.0 = Debug|x86
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Release|x64.ActiveCfg = Release|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Release|x64.Build.0 = Release|Any CPU
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Release|x86.ActiveCfg = Release|x86
+		{ABB32A29-AF50-47FA-B243-5FD75A5ABA54}.Release|x86.Build.0 = Release|x86
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Debug|x64.ActiveCfg = Debug|x64
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Debug|x64.Build.0 = Debug|x64
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Debug|x86.ActiveCfg = Debug|x86
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Debug|x86.Build.0 = Debug|x86
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Release|x64.ActiveCfg = Release|Any CPU
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Release|x64.Build.0 = Release|Any CPU
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Release|x86.ActiveCfg = Release|x86
+		{6015C99E-7AA8-4696-A390-E3910696B39D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://pauljensen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AviFile\\AviFile.csproj
+		SccProjectName1 = AviFile
+		SccLocalPath1 = AviFile
+		SccProjectUniqueName2 = SCAT\\SCAT.vbproj
+		SccProjectName2 = SCAT
+		SccLocalPath2 = SCAT
+	EndGlobalSection
+EndGlobal
