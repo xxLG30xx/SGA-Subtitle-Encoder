@@ -1,0 +1,9 @@
+artifacts/
+*.wav
+__pycache__/
+.pytest_cache/
+.gradle/
+build/
+
+.DS_Store
+**/.DS_Store

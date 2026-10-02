@@ -1,0 +1,22 @@
+plugins { id 'java'; id 'application' }
+group = 'com.sgasubtitler'
+version = '0.6.0'
+java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+application { mainClass = 'com.sgasubtitler.app.SgaSubtitlerApp' }
+repositories { mavenCentral() }
+sourceSets {
+    main {
+        java.srcDir 'java/src/main/java'
+        resources.srcDir 'java/src/main/resources'
+    }
+    test {
+        java.srcDir 'java/src/test/java'
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += output + compileClasspath
+    }
+}
+tasks.named('test') { enabled = false }
+tasks.register('engineTest', JavaExec) { dependsOn testClasses; classpath = sourceSets.test.runtimeClasspath; mainClass = 'com.sgasubtitler.EngineTest'; enableAssertions = true }
+tasks.register('fatJar', Jar) { dependsOn classes; archiveFileName = 'SGA-Subtitler-V0.6.jar'; manifest { attributes 'Main-Class': application.mainClass.get() }; from sourceSets.main.output }
+tasks.register('packageMac') { dependsOn fatJar; doLast { exec { commandLine 'bash', 'packaging/macos/build-app.sh' } } }
+check.dependsOn engineTest

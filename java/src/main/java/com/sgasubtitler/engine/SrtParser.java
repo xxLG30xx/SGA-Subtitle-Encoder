@@ -1,0 +1,8 @@
+package com.sgasubtitler.engine;
+import com.sgasubtitler.model.Subtitle; import java.io.*; import java.nio.charset.*; import java.nio.file.*; import java.util.*; import java.util.regex.*;
+public final class SrtParser {
+    private static final Pattern TC=Pattern.compile("(\\d{2}):(\\d{2}):(\\d{2})[,.](\\d{3})\\s*-->\\s*(\\d{2}):(\\d{2}):(\\d{2})[,.](\\d{3})");
+    public List<Subtitle> parse(Path path)throws IOException{return parse(Files.readString(path,StandardCharsets.UTF_8));}
+    public List<Subtitle> parse(String input){String normalized=input.replace("\r\n","\n").replace('\r','\n').strip();if(normalized.isEmpty())return List.of();List<Subtitle> result=new ArrayList<>();for(String block:normalized.split("\n\\s*\n")){String[] lines=block.split("\n");if(lines.length<3)throw new IllegalArgumentException("Bloc SRT incomplet");int number=Integer.parseInt(lines[0].strip());Matcher m=TC.matcher(lines[1]);if(!m.matches())throw new IllegalArgumentException("Timecode SRT invalide: "+lines[1]);long start=time(m,1),end=time(m,5);if(end<=start)throw new IllegalArgumentException("Fin antérieure au début (#"+number+")");String text=String.join("\n",Arrays.copyOfRange(lines,2,lines.length)).strip();if(text.isEmpty())throw new IllegalArgumentException("Texte vide (#"+number+")");result.add(new Subtitle(number,start,end,text));}result.sort(Comparator.comparingLong(Subtitle::startMillis));return List.copyOf(result);}
+    private static long time(Matcher m,int i){return (((Long.parseLong(m.group(i))*60+Long.parseLong(m.group(i+1)))*60+Long.parseLong(m.group(i+2)))*1000)+Long.parseLong(m.group(i+3));}
+}
